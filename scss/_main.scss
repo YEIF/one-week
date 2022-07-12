@@ -1,0 +1,150 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  h1 {
+    font-size: 80px;
+    line-height: 95px;
+    border-bottom: 2px solid $black;
+    padding-bottom: 24px;
+  }
+
+}
+
+.title {
+  font-size: 32px;
+  line-height: 48px;
+  color: $black;
+  font-weight: bold;
+  padding-bottom: 8px;
+  border-bottom: 1px solid $black;
+
+  span {
+    color: $red;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 16px;
+  }
+
+  &-content {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+.skills {
+  text-align: center;
+  background-color: $bg-color;
+  color: $white;
+  padding-bottom: 40px;
+
+  h2 {
+    font-size: 32px;
+    line-height: 48px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid $white;
+    width: 996px;
+    margin: 0 auto;
+    padding-top: 24px;
+
+    span {
+      font-size: 24px;
+      line-height: 36px;
+      margin-left: 16px;
+    }
+  }
+
+  ul {
+    margin: 0 auto;
+    text-align: left;
+    width: max-content;
+    border-left: 1px solid #96A9C4;
+  }
+
+  li {
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 24px;
+  }
+}
+
+.works {
+  font-size: 24px;
+  line-height: 36px;
+  border-left: 1px solid #96A9C4;
+  margin-left: 24px;
+
+  li {
+    margin-left: 24px;
+    font-weight: bold;
+
+    p {
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: normal;
+    }
+  }
+}
+
+.footer {
+  text-align: center;
+  background-color: $bg-color;
+  color: $white;
+  margin: 0 auto;
+  &-content{
+    padding-bottom: 40px;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 48px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid $white;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 24px;
+    span {
+      font-size: 24px;
+      line-height: 36px;
+      margin-left: 16px;
+    }
+  }
+  a{
+    text-decoration: none;
+    color:$white;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  &-icon{
+    li{
+      display: inline;
+      margin: 0 12px;
+    }
+  }
+}
+
+.mt-8 {
+  margin-top: 8px !important;
+}
+
+.mt-16 {
+  margin-top: 16px !important;
+}
+
+.mt-24 {
+  margin-top: 24px !important;
+}
+
+.mt-40 {
+  margin-top: 40px !important;
+}
+
+.mt-48 {
+  margin-top: 48px !important;
+}
+
+.mt-64 {
+  margin-top: 64px !important;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
